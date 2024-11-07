@@ -1,0 +1,12 @@
+services:
+  app:
+    container_name: todo-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./todo:/todo
+    env_file:
+      - .env

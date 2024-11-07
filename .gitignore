@@ -1,0 +1,9 @@
+*env*
+*.env
+*.db
+*.sqlite3
+*.log
+*.pyc
+*.pyo
+.DS_Store
+firebase_credentials.json
